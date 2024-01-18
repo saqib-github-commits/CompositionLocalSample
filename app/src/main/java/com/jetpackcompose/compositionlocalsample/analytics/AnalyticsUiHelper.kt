@@ -5,7 +5,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.staticCompositionLocalOf
 
 
-val LocalAnalyticsLogger = staticCompositionLocalOf {
+val LocalAnalyticsLogger = staticCompositionLocalOf<AnalyticsLogger> {
     DummyAnalyticsLogger()
 }
 
