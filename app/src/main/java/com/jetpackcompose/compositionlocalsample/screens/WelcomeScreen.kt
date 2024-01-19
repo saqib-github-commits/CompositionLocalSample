@@ -15,6 +15,5 @@ fun WelcomeScreen() {
             style = MaterialTheme.typography.bodyLarge,
         )
     }
-
     LogScreenVisited(screenName = "Welcome")
 }
